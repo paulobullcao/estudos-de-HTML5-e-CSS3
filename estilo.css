@@ -1,0 +1,88 @@
+.photo{
+    border:3px solid rgb(151, 158, 45);
+    border-radius: 50%;
+}
+/*cor de fundo do back da pag de conteúdo, fonte do texto, largura e também configuração de margem que se adapta*/
+body{
+    background: rgb(15, 15, 15);
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+}
+
+/*serve para alterar a cor dos textos */
+#title, .subtitle, .post_title{
+    
+    color:rgb(151, 158, 45);
+}
+.post_title{
+    color: rgb(5, 5, 5);
+    font-style:normal;
+}
+/*Muda a fonte do texto, e também a dimensão*/
+#title {
+  font-family: Verdana;
+  text-transform: 40px;
+  font-size: 16px;
+}
+
+
+a {
+/*colocar linha ao centro do texto*/
+    /*text-decoration: line-through;*/ 
+    color:rgb(151, 158, 45);
+}
+/*
+Serve para mudar o tamanho da fonte e também o estilo dela
+*/
+.post{
+    font-size: 16px;
+    font-style: inherit;
+/*zerando a margem que o navegador coloca e add na parte de baixo */
+    margin: 0;
+    margin-bottom: 15px;
+}
+/*serve para alterar a cor do background da pág, também alterar a borda e margem da pag */
+.post  {
+    background: rgb(247, 250, 249);
+    padding: 15px;
+    border: 3px solid rgb(151, 158, 45);
+    margin-bottom: 15px;
+    border-radius: 5px 10px;
+
+}
+
+/*Margem para o post do conteúdo*/
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: left;
+
+}
+/*add margem na imagem do poste e o texto*/
+.post_image{
+    margin-bottom: 15px;
+    border: 3px solid rgb(151, 158, 45);
+    border-radius: 5%;
+    margin: auto;
+    display: block;
+    
+}
+
+.post_link{
+    font-size: 10px;
+    font-style: initial;
+}
+
+.rodape{
+    color: rgb(85, 97, 16);
+}
+/*muda o valor que referencia tópico e também muda o9o espaçamento do texto*/
+.contacts_list{
+    list-style-type: none;
+    padding: 15px;
+}
+.contacts_list li a{
+    text-decoration:none;
+}
