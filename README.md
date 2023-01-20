@@ -1,2 +1,2 @@
 # estudos-de-HTML
-projestos utilizando a linguagem HTML5
+Projetos utilizando as ferramentas  HTML e CSS
